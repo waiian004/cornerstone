@@ -1,0 +1,176 @@
+        body {
+            background-image: url('bg.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+       .contact-form {
+            background-color: #8080806e;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 10px; /* Adjusted padding */
+            max-width: 550px;
+            margin: 20px auto;
+            max-height: 614px; /* Adjusted max-height */
+            overflow-y: auto; /* Added overflow-y to enable scrolling if content exceeds max-height */
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: calc(100% - 20px); /* Adjusted width */
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-method {
+            margin-top: 0px;
+            text-align: right;
+        }
+        .contact-method img {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px; /* Adjusted margin */
+        }
+        #map-container {
+            background-color: #8080806e;
+            padding: 20px; /* Adjusted padding */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px; /* Added margin */
+        }
+        #map-title {
+            color: #333; /* Changed color */
+            margin-bottom: .4em;
+            font-weight: bold;
+            font-size: 24px; /* Adjusted font size */
+            text-align: center;
+        }
+        #map-container {
+            background-color: #8080806e;
+            padding: 20px; /* Adjusted padding */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px auto; /* Center the map container horizontally with a margin of 20px */
+            width: 100%; /* Set width to 80% of the viewport */
+        }
+        #map-container iframe {
+            width: 100%; /* Make the iframe width 100% of the map container */
+            height: 508px; /* Adjusted height */
+            border: none;
+            border-radius: 5px;
+        }
+        /* Additional style to ensure proper layout */
+        #contact {
+            margin-bottom: 20px; /* Add margin to separate sections */
+        }
+        section {
+            height: 100vh; /* Set the height to fill the viewport */
+            overflow-y: auto; /* Enable vertical scrolling if needed */
+            padding-top: 130px; /* Added padding to give space for navbar */
+        }
+
+        body {
+            overflow-x: hidden; /* Prevent horizontal scroll */
+        }
+
+        .container {
+            width: 100%;
+            padding: 0;
+        }
+
+        .navbar, .sidebar, .footer, #map-container, .contact-form {
+            overflow-x: hidden; /* Ensures no horizontal scroll for these elements */
+        }
+
+
+
+        @media screen and (max-width: 375px) {
+        /* Add your styles for screens up to 320px wide here */
+        .container {
+            width: 131%;
+            padding: 5px;
+            margin-left: -40px;
+    
+            }
+            
+            .navbar-brand{
+            margin-left: 45px;
+            }
+  
+            h2 {
+                font-size: 18px
+            }
+  
+            p{
+                font-size: 10px;
+            }
+
+        }
+
+        @media (min-width: 576px) {
+            .contact-form {
+                max-width: 550px;
+            }
+            .contact-form button {
+                width: auto;
+            }
+        }
+
+        /* Footer Styles */
+.site-footer {
+    background: linear-gradient(to right, #4e79a7, #e15759); /* Adjust colors to match the screenshot */
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.footer-main h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.footer-main p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.footer-info {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footer-logo {
+    max-width: 220px;
+    margin: 10px 0;
+}
+
+.info {
+    font-size: 0.85rem;
+    color: #ddd;
+    margin-top: 5px;
+}
+
+.divider {
+    width: 80%;
+    height: 1px;
+    background-color: #ddd;
+    margin: 20px auto;
+}

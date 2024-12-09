@@ -1,0 +1,178 @@
+
+/* Body Styling to Center Content */
+body {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Feature Box Styling */
+.feature-container {
+    display: flex;
+    justify-content: space-around; /* Space items evenly */
+    align-items: center; /* Align items vertically */
+    background-color: rgba(0, 0, 0, 0.7); /* Slight transparency */
+    padding: 70px; /* Adjust padding as needed */
+    border-radius: 50px;
+    width: 100%; /* Set a responsive width */
+    max-width: 600px; /* Limit the maximum width */
+}
+
+/* Individual Feature Item */
+.feature-item {
+    text-align: center;
+    color: white;
+    flex: 1; /* Allows items to take equal space */
+}
+
+/* Images in Feature Items */
+.feature-item img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+/* Text in Feature Items */
+.feature-item p {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+
+    
+
+    /* SERVICE RESPONSIVENESS */
+
+    @media screen and (max-width: 320px) {
+  .container {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .service {
+    width: 100%; /* Set the width to 100% */
+    padding: 30px; /* Adjust the padding */
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+
+  .service img {
+    max-width: 100%; /* Ensure images fit within the container */
+  }
+
+  h2 {
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 11px;
+  }
+}
+
+
+@media screen and (max-width: 375px) {
+  /* Add your styles for screens up to 320px wide here */
+  .container {
+    width: 100%;
+    padding: 5px;
+    
+  }
+
+  .service {
+      width: 130%; /* Make images fill the container width */
+      height: auto; /* Preserve aspect ratio */
+      margin-left: -45px;
+    }
+
+    .service img {
+    max-width: 100%; /* Ensure images fit within the container */
+  }
+  
+  h2 {
+    font-size: 19px
+  }
+  
+  p{
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  /* Add your styles for screens up to 320px wide here */
+  .container {
+    width:100%;
+    padding: 5px;
+    
+  }
+
+  .service {
+      width: 125%; /* Make images fill the container width */
+      height: auto; /* Preserve aspect ratio */
+      margin-left: -41px;
+    }
+  
+    .service img {
+    max-width: 100%; /* Ensure images fit within the container */
+  }
+  
+  h2 {
+    font-size: 24px
+  }
+  
+  p{
+    font-size: 15px;
+  }
+}
+
+        /* Footer Styles */
+        .site-footer {
+            background: linear-gradient(to right, #4e79a7, #e15759); /* Adjust colors to match the screenshot */
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+        }
+        
+        .footer-main {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding-bottom: 20px;
+        }
+        
+        .footer-main h2 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        
+        .footer-main p {
+            font-size: 0.9rem;
+            line-height: 1.4;
+        }
+        
+        .footer-info {
+            text-align: center;
+            padding-top: 20px;
+        }
+        
+        .footer-logo {
+            max-width: 220px;
+            margin: 10px 0;
+        }
+        
+        .info {
+            font-size: 0.85rem;
+            color: #ddd;
+            margin-top: 5px;
+        }
+        
+        .divider {
+            width: 80%;
+            height: 1px;
+            background-color: #ddd;
+            margin: 20px auto;
+        }
